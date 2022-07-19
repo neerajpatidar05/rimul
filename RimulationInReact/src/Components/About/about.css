@@ -1,0 +1,51 @@
+.about1row {
+  padding: 64px 64px 224px 64px;
+}
+.aboutus1 {
+  color: #9aff77;
+}
+.about1row p {
+  padding: 15px 0px 15px 0px;
+  color: white;
+}
+
+.aboutbtn {
+  color: black;
+  outline: none;
+  border-radius: 12px;
+  padding: 5px 9px 5px 9px;
+  background: #9aff77;
+}
+
+.about2row {
+  padding: 134px 0px 34px 0px;
+}
+/* 3rd content  */
+
+.about3 {
+  padding: 114px 0px 114px 30px;
+}
+
+/* 4th content  */
+.about4{
+    padding: 0px 0px 30px 70px;
+}
+
+.about4 h1{
+font-weight: 900;
+}
+.about4 li{
+
+color: black !important;
+padding-top: 12px;
+font-weight: 800;
+}
+.about4row{
+    padding: 40px 12px 12px 32px  !important;
+}
+.aboutsh{
+    border-radius: 12px;
+}
+.about5{
+    padding-right: 6rem !important;
+}

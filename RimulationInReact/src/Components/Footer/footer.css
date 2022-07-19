@@ -1,0 +1,21 @@
+
+.footerh5{
+    background-color: #050a3a;
+padding: 60px !important;
+
+}
+.footerh5 p ,li ,h5 ,u{
+color: white !important;
+
+}
+.footerh5 h5{
+    padding-bottom: 1rem;
+}
+.footerh5 li{
+    list-style: none;
+
+}
+.footerh5 ul{
+    padding-left: 0px !important;
+
+}

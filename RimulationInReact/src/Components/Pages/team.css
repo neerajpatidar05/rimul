@@ -1,0 +1,14 @@
+.team1{
+  font-size: 4rem;
+  font-weight: 900;
+  text-align: center;
+}
+.teamcir{
+  width: 225px;
+height: 225px;
+border-radius: 50%;
+background-color: #5E5D5D;
+}
+.textCirCol h5{
+color: black !important;
+}

@@ -1,0 +1,28 @@
+
+body {
+  margin: 0;
+  --font-family: 'poppins';
+  
+}
+
+*{
+  font-family: var(--font-family);
+}
+
+/* animation override  */
+.animate__animated.animate__backInDown ,.animate__backInLeft,.animate__zoomInDown,.animate__backInRight{
+  --animate-duration: 2s;
+}
+
+.animate__slower{
+  --animate-duration: 2.3s !important;
+
+}
+.animate__animated.animate__jackInTheBox{
+  --animate-duration: 3s;
+
+}
+.animate-slow{
+  --animate-duration: 1.4s !important;
+
+}

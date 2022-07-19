@@ -1,0 +1,179 @@
+@import '../../../node_modules//ol//ol.css';
+
+.mapRow{
+    text-align: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .map-container{
+    height: 100vh;
+    width: 100%;
+  }
+
+#map {
+  /* position: absolute; */
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+#randomButton{
+  width: 100px;
+  padding: 10px 24px;
+  font-size: 9px;
+}
+
+
+.popupdisplay{
+  position: absolute;
+  top: 25%;
+  visibility: hidden;
+  left: 25%;
+  opacity: .8;
+  width: 450px;
+  height: 207px;
+  z-index: 1;
+  box-shadow: 5px 5px 5px;
+  background: white;
+  padding: 26px;
+  border: 2px solid rgb(14, 12, 12);
+  border-radius: 20px;
+
+}
+
+
+/* Popup container */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+/* The actual popup (appears on top) */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.tdata{
+  width:40%;
+  font-family:verdana;
+  font-size:15px;  
+  color:#fff;
+  padding: 10px;
+  text-align:center;
+}
+.tdata th{
+    background: #0780BA;
+
+    color: #fff;
+    line-height:35px;
+  }
+.tdata td{
+    background: #99DBFB;    
+    padding:10px;
+
+    color: #000;
+  }  
+          .mine,.refresh {
+            width: 50px;
+            height: 30px;
+            text-align: center;
+            display: inline;
+          }
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+.popupdisplay .hide {
+  visibility: hidden;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s
+}
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: red;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.lds-ring {
+  display: inline-block;
+  position: relative;
+  width: 1px;
+  height: 15px;
+  visibility: hidden;
+}
+
+.lds-ring div {
+  box-sizing: border-box;
+  display: block;
+  position: absolute;
+  width: 21px;
+  height: 21px;
+  margin: 1px;
+  border: 3px solid red;
+  border-radius: 50%;
+  animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+  border-color: red transparent transparent transparent;
+}
+.lds-ring div:nth-child(1) {
+  animation-delay: -0.45s;
+}
+.lds-ring div:nth-child(2) {
+  animation-delay: -0.3s;
+}
+.lds-ring div:nth-child(3) {
+  animation-delay: -0.15s;
+}
+@keyframes lds-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+/* ul li a{
+  display: none !important;
+}
+
+ul li{
+  display: none !important;
+} */

@@ -1,0 +1,95 @@
+#background-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  opacity: 0.9;
+}
+.rimHome1col {
+  position: relative;
+  padding: 38rem 0px 0px 0px !important;
+}
+.rimHome1 img {
+  position: relative;
+  bottom: 0%;
+}
+.rimHome1col2 h1 {
+  text-align: center;
+  height: 100vh !important;
+  padding-top: 21rem;
+  font-size: 5rem;
+  text-shadow: 1px 6px 6px rgba(255, 255, 255, 0.4); 
+  font-weight: bolder;
+  line-height: 1.5;
+  letter-spacing: 8px;
+}
+
+/* 2nd container  */
+.container2 {
+  padding: 60px 10px 20px 70px !important;
+}
+.container2 h1 {
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.2;
+  letter-spacing: 2px;
+}
+.learnMore {
+  border-radius: 12px;
+  padding: 2px 6px 2px 6px;
+}
+.container2 p {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.container2Col2 {
+  position: relative;
+}
+.ctr2Col2rel img {
+  top: 32%;
+  left: 40%;
+  position: absolute;
+}
+
+/* 3rd container  */
+.cont3 {
+  padding: 60px 150px 20px 150px !important;
+}
+.cont3 h1 {
+  font-size: 7rem;
+  font-weight: 900;
+}
+.cont3row2 {
+  padding: 20px 120px 40px 120px !important;
+}
+.cont3row2 p {
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-align: justify;
+}
+/* 4th container  */
+.cont4row {
+  padding: 60px 100px 20px 130px !important;
+}
+.cont4row h1 {
+  font-size: 5rem;
+  font-weight: bolder;
+  line-height: 1.6;
+}
+.cont4row2 {
+  padding: 0px 12px 60px 12px !important;
+}
+.cont4row2 button {
+  margin-right: 3rem;
+  border-radius: 12px;
+  padding: 1px 15px 1px 15px;
+}
+.cont4row2 p {
+  font-size: 1.3rem;
+  font-weight: 400;
+}
